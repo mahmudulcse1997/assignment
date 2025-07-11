@@ -1,4 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: rgb(245, 248, 255);
+}
 .inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -18,9 +28,7 @@ nav{
     font-size: 45px;
     color: #4E47FF;
 }
-nav ul li{
-    list-style: none;
-}
+
 .btn-primary{
     background-color: #4E47EF;
     color: white;
@@ -29,20 +37,75 @@ nav ul li{
 }
 .banner{
     text-align: center;
-    padding-bottom: 40px;
+    
 }
 header{
-background-image: url(../images/Hero-bg.png);
 
+background-image: url(../images/Hero-bg.png);
+background-size: cover;
+height: 698px;
 }
 .section{
- display: flex;
- justify-content: space-between;
- align-items: center;
- margin: 10px 60px;
- padding: 60px 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 20px;
 }
+
 .image{
     border-radius: 20px;
     size: 15px 25px;
+}
+h1{
+    text-align:center;
+    padding: 5%;
+}
+.section-title{
+    background-color: #c1c0e0;
+    list-style: none;
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.section-title h1{
+    font-size: 40px;
+}
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    padding: 0 100px;
+}
+.number{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;  
+}
+.item-title{
+    font-weight: 2000px;
+    color: #4E47EF;
+}
+.user{
+    text-align: center;
+}
+.user-content{
+    display: flex;
+    text-align: left;
+    gap: 40px;
+    margin: 40px;
+}
+.number h1{
+    font-size: 80px;
+}
+.designer{
+    padding: 20px;
+    background-color: #ffff ;
+    border-radius: 15px;
+
+}
+.info{
+    display: flex;
+   
+    
 }
