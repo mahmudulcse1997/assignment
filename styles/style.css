@@ -35,3 +35,14 @@ header{
 background-image: url(../images/Hero-bg.png);
 
 }
+.section{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 10px 60px;
+ padding: 60px 600px;
+}
+.image{
+    border-radius: 20px;
+    size: 15px 25px;
+}
