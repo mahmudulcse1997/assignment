@@ -144,5 +144,11 @@ ul{
     display: flex;
     justify-content: center;
     gap: 60px;
-    margin: 50px 0px;
+    margin: 20px 0px 50px 0px;
+}
+ ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
 }
